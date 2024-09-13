@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 @Configuration
 public class BeanConfig {
-    @Bean
+    @Bean(name = "scanBean") // Defining name for the bean
     public Scanner scanner() {
         return new Scanner(System.in);
     }
