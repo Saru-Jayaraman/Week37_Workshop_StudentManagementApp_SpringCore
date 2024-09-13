@@ -3,7 +3,6 @@ package se.lexicon;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import se.lexicon.config.BeanConfig;
-import se.lexicon.config.ComponentScanConfig;
 import se.lexicon.config.ImportConfig;
 import se.lexicon.models.Student;
 import se.lexicon.service.StudentManagement;
